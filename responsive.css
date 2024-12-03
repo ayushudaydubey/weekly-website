@@ -1,0 +1,93 @@
+@media screen and (max-width: 600px) {
+  .logo a {
+    font-size: 15px;
+  }
+  
+  .cta1 {
+    padding: 5px 10px;
+    font-size: 15px;
+  }
+
+  .nav-links {
+    gap: 10px;
+  }
+
+  .nav-links li a {
+    font-size: 15px;
+  }
+
+  .overlay video {
+    height: 60%;
+  }
+
+  .nav-actions {
+    gap: 4px;
+  }
+
+  .search-bar {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+  }
+
+  .page1-content h1 {
+    font-size: 35px;
+  }
+
+  .page1-content p {
+    font-size: 16px;
+    font-weight: 500;
+    width: 76%;
+  }
+
+  .page1-btn {
+    padding-top: 1vw;
+  }
+
+  .btn {
+    padding: 6px 15px;
+    font-size: 15px;
+  }
+
+  .page3 {
+    height: 100vh;
+  }
+
+  .page3-overlay {
+    height: 100vw;
+  }
+
+  .team {
+    font-size: 25px;
+  }
+
+  .page3-top {
+    gap: 1vw;
+  }
+
+  .buliding {
+    height: 20vh;
+    width: 30vw;
+  }
+
+  .buliding img {
+    border-radius: 30px;
+    height: 15vh;
+    width: 10vw;
+  }
+
+  .buliding h3 {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    padding: 2px 8px;
+  }
+
+  .buliding h4 {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    padding: 5px 10px;
+  }
+}
