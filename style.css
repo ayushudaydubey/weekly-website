@@ -64,12 +64,18 @@ main {
 animation-timing-function: linear;
   z-index: 1000;
 }
-
-.logo a {
-  font-size: 3.3rem;
-  font-weight: bold;
-  text-decoration: none;
-  color: white;
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo h1{
+  font-size: 60px;
+  font-weight: 500;
+}
+.logo img {
+ 
+width: 6vw;
+height: 6vw;
 }
 
 .logo span {
@@ -207,7 +213,7 @@ button:hover {
 }
 
 .cities {
-  padding: 1vw;
+
   height: 60vh;
   width: 100vw;
   gap: 2vw;
@@ -225,25 +231,32 @@ button:hover {
   text-transform: uppercase;
 
   cursor: pointer;
+ 
 }
 
 .city-img-txt img {
   height: 450px;
   width: 450px;
   object-fit: cover;
-  
+  margin-bottom:5%;
   border-radius:20%;
   box-shadow: 5px 5px 25px black;
 
 }
 .city-img-txt img:hover{
-  scale: 1.1;
-  border-radius: 10%;
+  height: 550px;
+  border-radius: 1%;
+
+}
+.city-img-txt h1{
+  font-size:  40px ;
+  font-weight:600 ;
+
 }
 .city-img-txt h2 {
-  padding-top: 1.3vw;
-  font-size: 40px;
-  font-weight: 600;
+
+  font-size: 35px;
+  font-weight: 500;
   text-align: center;
   letter-spacing: 1px;
 }
@@ -318,9 +331,9 @@ color: black;
 
 footer {
   margin-top: 5px;
-  font-size: 2rem;
-  
-  color: #e2e2e2;
+  font-size: 2.3rem;
+  font-weight: 500;
+  color: #270000;
   text-align: right;
 }
 
@@ -450,12 +463,7 @@ box-shadow: 3px 3px 5px black;
   object-fit: cover;
   border-radius: 15px;
   box-shadow: 5px 5px 10px black;
-  animation: slideIn forwards;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-  animation-delay: 8s;
-  opacity: 0;
+
   transition: 0.3s 0.5 all;
 }
 
@@ -481,11 +489,10 @@ box-shadow: 3px 3px 5px black;
   background-color: rgb(201, 200, 186);
   border-radius: 20px;
   box-shadow: 5px 5px 50px rgb(0, 0, 0);
-  animation: slideIn forwards;
+   animation: slideIn forwards;
   animation-duration: 3s;
   animation-iteration-count: 1;
   animation-timing-function: linear;
-  animation-delay: 8s;
   opacity: 0;
   transition: 0.3s 0.5 all;
 
@@ -504,12 +511,7 @@ box-shadow: 3px 3px 5px black;
 .r3-img {
   width: 60%;
   height: 100%;
-  animation: slideInRight forwards;
-  animation-duration: 3s;
-  animation-iteration-count: 1;
-  animation-timing-function: linear;
-  animation-delay: 8s;
-  opacity: 0;
+
   transition: 0.3s 0.5 all;
 }
 
