@@ -1,4 +1,8 @@
 @media screen and (max-width: 600px) {
+
+  .page1{
+    width: 190vw;
+  }
   .logo a {
     font-size: 15px;
   }
